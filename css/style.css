@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.title h1 span {
+    font-weight: 900;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#b99853, #cba961, #dfc58e, #cba961, #b99853);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title p {
+    font-size: 18px;
+}
+
+.title p span {
+    font-weight: bold;
+}   
+
+.title img {
+    width: 350px;
+    margin-block: 10px;
+}
+
+.msg {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid #b99853;
+    padding: 12px 40px;
+    border-radius: 30px;
+}
+
+.msg span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pedido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pedido a {
+    color: #FFFFFF;
+    background: #b99853;
+    font-weight: bold;
+    padding: 10px 60px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+    transition: 0.2s all;
+}
+
+.pedido a:hover {
+    font-size: 24px;
+}
